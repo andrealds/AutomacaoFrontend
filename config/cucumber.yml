@@ -1,0 +1,5 @@
+default: --no-source --color --format pretty
+
+regressao: -p chrome -f html -o report.html
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
